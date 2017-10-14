@@ -12,7 +12,9 @@ namespace HackerRank
    
         static void Main(String[] args)
         {
-            BetweenSets.Process();
+            BreakingRecords.ProcessMain();
+
+            Console.Read();
         }
     }
 }

@@ -43,8 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementation\BetweenSets.cs" />
+    <Compile Include="Implementation\BreakingRecords.cs" />
     <Compile Include="Implementation\Kangoroo.cs" />
-    <Compile Include="Implementation\MiniMaxSum.cs" />
+    <Compile Include="Warmup\MiniMaxSum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

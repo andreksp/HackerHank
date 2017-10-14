@@ -8,7 +8,7 @@ namespace HackerRank.Implementation
 {
     public class BetweenSets
     {
-        public static void Process()
+        public static void ProcessMain()
         {
             string[] tokens_n = Console.ReadLine().Split(' ');
             int n = Convert.ToInt32(tokens_n[0]);
@@ -17,11 +17,11 @@ namespace HackerRank.Implementation
             int[] a = Array.ConvertAll(a_temp, Int32.Parse);
             string[] b_temp = Console.ReadLine().Split(' ');
             int[] b = Array.ConvertAll(b_temp, Int32.Parse);
-            int total = getTotalX(a, b);
+            int total = ProcessBetweenSets(a, b);
             Console.WriteLine(total);
         }
 
-        static int getTotalX(int[] a, int[] b)
+        static int ProcessBetweenSets(int[] a, int[] b)
         {
 
             int maximum = a.ToList().Concat(b.ToList()).Max();

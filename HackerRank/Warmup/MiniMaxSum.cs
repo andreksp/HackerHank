@@ -6,18 +6,21 @@ using System.Threading.Tasks;
 
 namespace HackerRank.Implementation
 {
-    class MiniMaxSum
+    public class MiniMaxSum
     {
-        static void Main(String[] args)
+        public void ProcessMain()
         {
             string[] arr_temp = Console.ReadLine().Split(' ');
             int[] arr = Array.ConvertAll(arr_temp, Int32.Parse);
 
+            Console.WriteLine(ProcessMiniMaxSum(arr));
+        }
+        public string ProcessMiniMaxSum(int[] arr)
+        {
             List<long> values = arr.ToList().ConvertAll(i => (long)i);
 
-            Console.WriteLine(values.OrderBy(p => p).Take(4).Sum().ToString() + " " + values.OrderByDescending(p => p).Take(4).Sum().ToString());
-
-
+            return values.OrderBy(p => p).Take(4).Sum().ToString() + " " + values.OrderByDescending(p => p).Take(4).Sum().ToString();
         }
+
     }
 }

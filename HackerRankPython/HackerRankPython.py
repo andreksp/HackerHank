@@ -2,10 +2,13 @@
 
 import sys
 from Implementation.kangoroo import Kangoroo
+from Implementation.breakingRecords import BreakingRecords
 
-k = Kangoroo()
+#k = Kangoroo()
 
-k.process()
+#k.process()
+
+BreakingRecords().process()
 
 
 
