@@ -22,10 +22,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="HackerRankPython.py" />
+    <Compile Include="Implementation\birthDayChocolate.py" />
     <Compile Include="Implementation\breakingRecords.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Implementation\divisibleSumPairs.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Implementation\kangoroo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Implementation\migratoryBirds.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
