@@ -12,7 +12,7 @@ namespace HackerRank
    
         static void Main(String[] args)
         {
-            MigratoryBirds.ProcessMain();
+            DayOfTheProgrammer.ProcessMain();
 
             Console.Read();
         }

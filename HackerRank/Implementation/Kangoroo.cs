@@ -8,7 +8,7 @@ namespace HackerRank.Implementation
 {
     public class Kangoroo
     {
-        public static void Process()
+        public static void ProcessMain()
         {
             string[] tokens_x1 = Console.ReadLine().Split(' ');
             int x1 = Convert.ToInt32(tokens_x1[0]);

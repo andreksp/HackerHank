@@ -6,12 +6,14 @@ from Implementation.breakingRecords import BreakingRecords
 from Implementation.birthDayChocolate import BirthdayChocolate
 from Implementation.divisibleSumPairs import DivisibleSumPairs
 from Implementation.migratoryBirds import MigratoryBirds
+from Implementation.dayOfTheProgrammer import DayOfTheProgrammer
+
 
 #k = Kangoroo()
 
 #k.process()
 
-MigratoryBirds().process()
+DayOfTheProgrammer().process()
 
 
 

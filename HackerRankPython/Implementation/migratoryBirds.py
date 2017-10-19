@@ -13,15 +13,12 @@ class MigratoryBirds():
 
             total[item] += 1
         
-        listSorteByValueDesc = sorted(total.items(), key=lambda t: t[1], reverse=True)
-
-        kMax, vMax = listSorteByValueDesc[0]
+        kMax, vMax = sorted(total.items(), key=lambda t: t[1], reverse=True)[0]
 
         filteredList = {k:v for (k,v) in total.items() if v == vMax}
 
-        modaKeyPair = sorted(filteredList.items(), key=lambda t: t[0])
+        k1, v1 = sorted(filteredList.items(), key=lambda t: t[0])[0]
 
-        k1, v1 = modaKeyPair[0]
 
         return k1;
 

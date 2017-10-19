@@ -26,6 +26,7 @@
     <Compile Include="Implementation\breakingRecords.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Implementation\dayOfTheProgrammer.py" />
     <Compile Include="Implementation\divisibleSumPairs.py">
       <SubType>Code</SubType>
     </Compile>
@@ -35,9 +36,13 @@
     <Compile Include="Implementation\migratoryBirds.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Warmup\BirthcakeCandles.py" />
+    <Compile Include="Warmup\MinMaxSum.py" />
+    <Compile Include="Warmup\TimeConversion.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Implementation\" />
+    <Folder Include="Warmup\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
