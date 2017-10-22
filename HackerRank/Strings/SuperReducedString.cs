@@ -11,49 +11,31 @@ namespace HackerRank.Strings
         public static void ProcessMain()
         {
             //string s = Console.ReadLine();
-            string s = "aa";
+            string s = "baab";
             string result = ProcessSuperReducedString(s);
             Console.WriteLine(result);
         }
 
         static string ProcessSuperReducedString(string s)
         {
-            var chars = s.ToCharArray();
+            char[] chars = s.ToCharArray();
 
-            bool continueRemoving = false;
-            string newString = chars[0].ToString();
+            string newString = "";
             //abcdeefgijkl
 
-            do
+            for (int i = 0; i < chars.Length - 1; i++)
             {
-                if (chars.Length > 0)
+                if (chars[i] == chars[i + 1])
                 {
-                    char c = chars[0];
+                    string firstPart = i > 0 ? new string(chars.Take(i).ToArray()) : "";
+                    string secondPart = newString.Length - 2 < chars.Length ? new string(chars.Skip(i + 2).ToArray()) : "";
 
-                    continueRemoving = false;
-                    newString = chars[0].ToString();
-                    for (int i = 1; i < chars.Length; i++)
-                    {
-                        if (c == chars[i] && !continueRemoving)
-                        {
-                            continueRemoving = true;
-                            newString = newString.Substring(0, newString.Length - 1);
-                        }
-                        else
-                        {
-                            c = chars[i];
-                            newString += chars[i];
-                        }
-                    }
+                    newString = firstPart + secondPart;
 
                     chars = newString.ToCharArray();
+                    i = -1;
                 }
-                else
-                {
-                    continueRemoving = false;
-                }
-
-            } while (continueRemoving);
+            }
 
             if (string.IsNullOrEmpty(newString))
             {

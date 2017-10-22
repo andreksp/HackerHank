@@ -7,13 +7,15 @@ from Implementation.birthDayChocolate import BirthdayChocolate
 from Implementation.divisibleSumPairs import DivisibleSumPairs
 from Implementation.migratoryBirds import MigratoryBirds
 from Implementation.dayOfTheProgrammer import DayOfTheProgrammer
+from Strings.superReducedString import SuperReducedString
+
 
 
 #k = Kangoroo()
 
 #k.process()
 
-DayOfTheProgrammer().process()
+SuperReducedString().process()
 
 
 

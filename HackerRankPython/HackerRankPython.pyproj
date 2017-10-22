@@ -39,12 +39,16 @@
     <Compile Include="Implementation\migratoryBirds.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Strings\superReducedString.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Warmup\BirthcakeCandles.py" />
     <Compile Include="Warmup\MinMaxSum.py" />
     <Compile Include="Warmup\TimeConversion.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Implementation\" />
+    <Folder Include="Strings\" />
     <Folder Include="Warmup\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
