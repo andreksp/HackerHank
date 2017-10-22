@@ -1,4 +1,5 @@
 ﻿using HackerRank.Implementation;
+using HackerRank.Strings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace HackerRank
    
         static void Main(String[] args)
         {
-            DayOfTheProgrammer.ProcessMain();
+            SuperReducedString.ProcessMain();
 
             Console.Read();
         }

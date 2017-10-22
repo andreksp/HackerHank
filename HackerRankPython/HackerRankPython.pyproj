@@ -23,6 +23,9 @@
   <ItemGroup>
     <Compile Include="HackerRankPython.py" />
     <Compile Include="Implementation\birthDayChocolate.py" />
+    <Compile Include="Implementation\bonAppetit.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Implementation\breakingRecords.py">
       <SubType>Code</SubType>
     </Compile>
