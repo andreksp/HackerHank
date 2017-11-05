@@ -8,6 +8,8 @@ from Implementation.divisibleSumPairs import DivisibleSumPairs
 from Implementation.migratoryBirds import MigratoryBirds
 from Implementation.dayOfTheProgrammer import DayOfTheProgrammer
 from Strings.superReducedString import SuperReducedString
+from Strings.camelCase import CamelCase
+from Strings.twoCharacters import TwoCharacters
 
 
 
@@ -15,7 +17,7 @@ from Strings.superReducedString import SuperReducedString
 
 #k.process()
 
-SuperReducedString().process()
+TwoCharacters().process()
 
 
 

@@ -50,6 +50,8 @@
     <Compile Include="Implementation\DivisibleSumPairs.cs" />
     <Compile Include="Implementation\Kangoroo.cs" />
     <Compile Include="Implementation\MigratoryBirds.cs" />
+    <Compile Include="Strings\TwoCharacters.cs" />
+    <Compile Include="Strings\CamelCase.cs" />
     <Compile Include="Strings\SuperReducedString.cs" />
     <Compile Include="Warmup\MiniMaxSum.cs" />
     <Compile Include="Program.cs" />
