@@ -39,7 +39,13 @@
     <Compile Include="Implementation\migratoryBirds.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Sort.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Strings\camelCase.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strings\strongPassword.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Strings\superReducedString.py">

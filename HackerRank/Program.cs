@@ -13,7 +13,7 @@ namespace HackerRank
    
         static void Main(String[] args)
         {
-            TwoCharacters.ProcessMain();
+            StrongPassword.ProcessMain();
 
             Console.Read();
         }
