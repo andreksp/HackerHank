@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data Structures\Arrays\2DArrayDS.cs" />
+    <Compile Include="Data Structures\Arrays\ArraysDS.cs" />
     <Compile Include="Implementation\BetweenSets.cs" />
     <Compile Include="Implementation\BirthdayChocolate.cs" />
     <Compile Include="Implementation\BonAppetit.cs" />

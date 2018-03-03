@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DataStructures\Arrays\array2dDS.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataStructures\Arrays\arrayDS.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="HackerRankPython.py" />
     <Compile Include="Implementation\birthDayChocolate.py" />
     <Compile Include="Implementation\bonAppetit.py">
@@ -59,7 +65,9 @@
     <Compile Include="Warmup\TimeConversion.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="F:\Projetos\Visual Studio 2017\HackerRank\HackerRankPython\DataStructures\Arrays\" />
     <Folder Include="Implementation\" />
+    <Folder Include="F:\Projetos\Visual Studio 2017\HackerRank\HackerRankPython\DataStructures\" />
     <Folder Include="Strings\" />
     <Folder Include="Warmup\" />
   </ItemGroup>

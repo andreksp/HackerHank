@@ -1,4 +1,5 @@
-﻿using HackerRank.Implementation;
+﻿using HackerRank.Data_Structures.Arrays;
+using HackerRank.Implementation;
 using HackerRank.Strings;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ namespace HackerRank
    
         static void Main(String[] args)
         {
-            StrongPassword.ProcessMain();
+            _2DArrayDS.ProcessMain();
 
             Console.Read();
         }
