@@ -11,7 +11,10 @@ class Array2dDS(object):
 
         for i in range(0, len(arr) - 2):
             for j in range(0, len(arr) - 2):
-                hCSum = arr[i][j] + arr[i][j + 1] + arr[i][j + 2] + arr[i + 1][j + 1] + arr[i + 2][j] + arr[i + 2][j + 1] + arr[i + 2][j + 2]
+                hCSum = sum([arr[i][j+z] for z in range(0, 3)]) + \
+                            arr[i + 1][j + 1] + \
+                            sum([arr[i+2][j+h] for h in range(0, 3)])
+
                 if hCSum > maxHourglass:
                     maxHourglass = hCSum
 
