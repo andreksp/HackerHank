@@ -42,8 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CrackingCodeInterview\ArrayLeftRotation.cs" />
+    <Compile Include="CrackingCodeInterview\IsBinarySearchTree.cs" />
+    <Compile Include="CrackingCodeInterview\MakingAnagrams.cs" />
+    <Compile Include="CrackingCodeInterview\RansomNote.cs" />
+    <Compile Include="CrackingCodeInterview\RunningMedian.cs" />
     <Compile Include="Data Structures\Arrays\2DArrayDS.cs" />
     <Compile Include="Data Structures\Arrays\ArraysDS.cs" />
+    <Compile Include="Data Structures\LinkedLists\PrintElements.cs" />
     <Compile Include="Implementation\BetweenSets.cs" />
     <Compile Include="Implementation\BirthdayChocolate.cs" />
     <Compile Include="Implementation\BonAppetit.cs" />
@@ -52,6 +58,9 @@
     <Compile Include="Implementation\DivisibleSumPairs.cs" />
     <Compile Include="Implementation\Kangoroo.cs" />
     <Compile Include="Implementation\MigratoryBirds.cs" />
+    <Compile Include="Strings\GamesThrones.cs" />
+    <Compile Include="Strings\HackerRankString.cs" />
+    <Compile Include="Strings\PalindromeIndex.cs" />
     <Compile Include="Strings\StrongPassword.cs" />
     <Compile Include="Strings\TwoCharacters.cs" />
     <Compile Include="Strings\CamelCase.cs" />
@@ -64,7 +73,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Implementation\MigratoreText.txt" />
+    <Content Include="CrackingCodeInterview\1.txt" />
+    <Content Include="CrackingCodeInterview\RunningMedian.txt" />
+    <Content Include="Strings\Iinput.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

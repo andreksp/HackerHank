@@ -27,6 +27,9 @@
     <Compile Include="DataStructures\Arrays\arrayDS.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DataStructures\LinkedLists\PrintElements.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="HackerRankPython.py" />
     <Compile Include="Implementation\birthDayChocolate.py" />
     <Compile Include="Implementation\bonAppetit.py">
@@ -51,6 +54,12 @@
     <Compile Include="Strings\camelCase.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Strings\hackerRankString.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strings\palindromeIndex.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Strings\strongPassword.py">
       <SubType>Code</SubType>
     </Compile>
@@ -65,6 +74,9 @@
     <Compile Include="Warmup\TimeConversion.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="DataStructures\" />
+    <Folder Include="DataStructures\Arrays\" />
+    <Folder Include="DataStructures\LinkedLists\" />
     <Folder Include="F:\Projetos\Visual Studio 2017\HackerRank\HackerRankPython\DataStructures\Arrays\" />
     <Folder Include="Implementation\" />
     <Folder Include="F:\Projetos\Visual Studio 2017\HackerRank\HackerRankPython\DataStructures\" />

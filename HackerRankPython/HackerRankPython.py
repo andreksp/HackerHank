@@ -12,14 +12,14 @@ from Strings.camelCase import CamelCase
 from Strings.twoCharacters import TwoCharacters
 from Strings.strongPassword import StrongPassword
 from DataStructures.Arrays.arrayDS import ArrayDS
-from DataStructures.Arrays.Array2dDS import Array2dDS
-
+#from DataStructures.Arrays.Array2dDS import Array2dDS
+from Strings.hackerRankString import HackerRankString
 #k = Kangoroo()
 
 #k.process()
 
 #TwoCharacters().process()
 
-s = Array2dDS()
+s = HackerRankString()
 s.process()
 
