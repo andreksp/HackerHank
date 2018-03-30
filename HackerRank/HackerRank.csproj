@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CrackingCodeInterview\ArrayLeftRotation.cs" />
+    <Compile Include="CrackingCodeInterview\DetectCycle.cs" />
     <Compile Include="CrackingCodeInterview\IsBinarySearchTree.cs" />
     <Compile Include="CrackingCodeInterview\MakingAnagrams.cs" />
     <Compile Include="CrackingCodeInterview\RansomNote.cs" />
@@ -73,7 +74,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CrackingCodeInterview\1.txt" />
     <Content Include="CrackingCodeInterview\RunningMedian.txt" />
     <Content Include="Strings\Iinput.txt" />
   </ItemGroup>
