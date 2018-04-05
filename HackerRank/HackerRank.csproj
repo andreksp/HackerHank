@@ -43,11 +43,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CrackingCodeInterview\ArrayLeftRotation.cs" />
+    <Compile Include="CrackingCodeInterview\BalancedBrakets.cs" />
+    <Compile Include="CrackingCodeInterview\BubbleSort.cs" />
     <Compile Include="CrackingCodeInterview\DetectCycle.cs" />
     <Compile Include="CrackingCodeInterview\IsBinarySearchTree.cs" />
     <Compile Include="CrackingCodeInterview\MakingAnagrams.cs" />
     <Compile Include="CrackingCodeInterview\RansomNote.cs" />
     <Compile Include="CrackingCodeInterview\RunningMedian.cs" />
+    <Compile Include="CrackingCodeInterview\TriesContacts.cs" />
+    <Compile Include="CrackingCodeInterview\TwoStacks.cs" />
     <Compile Include="Data Structures\Arrays\2DArrayDS.cs" />
     <Compile Include="Data Structures\Arrays\ArraysDS.cs" />
     <Compile Include="Data Structures\LinkedLists\PrintElements.cs" />
@@ -75,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CrackingCodeInterview\RunningMedian.txt" />
+    <Content Include="CrackingCodeInterview\tries.txt" />
     <Content Include="Strings\Iinput.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

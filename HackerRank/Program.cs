@@ -17,7 +17,7 @@ namespace HackerRank
     {
         static void Main(String[] args)
         {
-            MakingAnagrams.Run();
+            TriesContacts.Run();
 
             Console.Read();
         }
