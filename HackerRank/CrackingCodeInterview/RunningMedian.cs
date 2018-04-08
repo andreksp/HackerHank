@@ -6,19 +6,6 @@ using System.Linq;
 
 public class RunningMedian
 {
-    public static double Median(List<int> list)
-    {
-        int size = list.Count();
-        if (size % 2 == 0)
-        {
-            return (list[size / 2 - 1] + list[size / 2]) / 2.0;
-        }
-        else
-        {
-            return list[size / 2];
-        }
-    }
-
     public static void AddToSortedList(List<int> list, int v)
     {
         if (list.Count == 0)
