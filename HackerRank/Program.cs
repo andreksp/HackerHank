@@ -17,7 +17,7 @@ namespace HackerRank
     {
         static void Main(String[] args)
         {
-            TriesContacts.Run();
+            RecursiveStaircase.Run();
 
             Console.Read();
         }

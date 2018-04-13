@@ -46,9 +46,14 @@
     <Compile Include="CrackingCodeInterview\BalancedBrakets.cs" />
     <Compile Include="CrackingCodeInterview\BubbleSort.cs" />
     <Compile Include="CrackingCodeInterview\DetectCycle.cs" />
+    <Compile Include="CrackingCodeInterview\Fibonacci.cs" />
+    <Compile Include="CrackingCodeInterview\IceCreamParlor.cs" />
     <Compile Include="CrackingCodeInterview\IsBinarySearchTree.cs" />
+    <Compile Include="CrackingCodeInterview\LonelyInteger.cs" />
     <Compile Include="CrackingCodeInterview\MakingAnagrams.cs" />
+    <Compile Include="CrackingCodeInterview\Primality.cs" />
     <Compile Include="CrackingCodeInterview\RansomNote.cs" />
+    <Compile Include="CrackingCodeInterview\RecursiveStaircase.cs" />
     <Compile Include="CrackingCodeInterview\RunningMedian.cs" />
     <Compile Include="CrackingCodeInterview\TriesContacts.cs" />
     <Compile Include="CrackingCodeInterview\TwoStacks.cs" />
@@ -78,6 +83,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CrackingCodeInterview\IceCream.txt" />
+    <Content Include="CrackingCodeInterview\IceCream2.txt" />
+    <Content Include="CrackingCodeInterview\IceCreamParlor.txt" />
     <Content Include="CrackingCodeInterview\RunningMedian.txt" />
     <Content Include="CrackingCodeInterview\tries.txt" />
     <Content Include="Strings\Iinput.txt" />

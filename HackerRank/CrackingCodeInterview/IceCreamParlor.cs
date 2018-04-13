@@ -4,33 +4,31 @@ using System.IO;
 using System.Linq;
 public class IceCreamParlor
 {
-    public static List<int> Solve(int[] arr, int money)
+    static void Solve(int[] arr, int money)
     {
-        List<int> res = new List<int>();
-        int count = 0;
+        // Complete this function
+        var ordered = arr.OrderBy(p => p).ToArray();
 
-        foreach (var item in arr)
+        for (int i = 0; i < arr.Length; i++)
         {
-            var r = money - item;
-            var i = Array.BinarySearch(arr, r);
+            int t = Math.Abs(arr[i] - money);
 
-            if (i > -1)
+            if (Array.BinarySearch(ordered, t) > -1)
             {
-                res.Add(item);
-                res.Add(arr[i]);
+                int newT = Array.IndexOf(arr, t, i + 1, arr.Length - i - 1);
 
-                break;
+                if (newT > -1)
+                {
+                    Console.WriteLine($"{i + 1} {newT + 1}");
+                    break;
+                }
             }
-
-            count++;
         }
-
-        return res;
     }
 
     public static void Run()
     {
-        string txt = File.ReadAllText(@"F:\Projetos\Visual Studio 2017\HackerRank\HackerRank\CrackingCodeInterview\IceCream2.txt");
+        string txt = File.ReadAllText(@"F:\Projetos\Visual Studio 2017\HackerRank\HackerRank\CrackingCodeInterview\IceCreamParlor.txt");
         string[] stringSeparators = new string[] { "\r\n" };
         var a = new List<string>(txt.Split(stringSeparators, StringSplitOptions.None));
 
@@ -51,24 +49,7 @@ public class IceCreamParlor
             a.RemoveAt(0);
             var arr = Array.ConvertAll(arr_temp.ToArray(), int.Parse);
 
-            var ordered = arr.ToList().OrderBy(p => p).ToArray();
-            res.Clear();
-
-            var list = Solve(arr, money);
-
-            if (list.Count() == 2)
-            {
-                var a1 = Array.FindIndex(arr, p => p == list[0]) + 1;
-                var a2 = Array.FindIndex(arr, p => p == list[1]) + 1;
-
-                if (a2 == a1)
-                    a2 = Array.FindIndex(arr, a1, p => p == list[1]) + 1;
-
-                res.Add(a1);
-                res.Add(a2);                
-
-                Console.WriteLine(string.Join(" ", res.OrderBy(p => p).ToArray()));
-            }
+            Solve(arr, money);
         }
     }
 }
