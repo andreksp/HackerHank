@@ -45,6 +45,8 @@
     <Compile Include="CrackingCodeInterview\ArrayLeftRotation.cs" />
     <Compile Include="CrackingCodeInterview\BalancedBrakets.cs" />
     <Compile Include="CrackingCodeInterview\BubbleSort.cs" />
+    <Compile Include="CrackingCodeInterview\CoinChange.cs" />
+    <Compile Include="CrackingCodeInterview\CountingInversions.cs" />
     <Compile Include="CrackingCodeInterview\DetectCycle.cs" />
     <Compile Include="CrackingCodeInterview\Fibonacci.cs" />
     <Compile Include="CrackingCodeInterview\IceCreamParlor.cs" />

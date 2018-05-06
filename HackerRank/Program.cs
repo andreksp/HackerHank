@@ -11,20 +11,15 @@ using System.Threading.Tasks;
 
 namespace HackerRank
 {
+    class HackerRank4
 
-
-    class HackerRank
     {
         static void Main(String[] args)
         {
-            RecursiveStaircase.Run();
+            CountingInversions.Run();
 
             Console.Read();
+
         }
-
-
     }
-
-
-
 }
