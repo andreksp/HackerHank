@@ -11,7 +11,7 @@ namespace HackerRank.CrackingCodeInterview
 
         public static int[][] cache = null;
 
-        public static void Main(String[] args)
+        public static void Run()
         {
             int n = Convert.ToInt32(Console.ReadLine());
             int m = Convert.ToInt32(Console.ReadLine());

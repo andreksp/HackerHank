@@ -1,4 +1,5 @@
-﻿using HackerRank.CrackingCodeInterview;
+﻿using HackerRank.Codility;
+using HackerRank.CrackingCodeInterview;
 using HackerRank.Data_Structures.Arrays;
 using HackerRank.Implementation;
 using HackerRank.Strings;
@@ -16,9 +17,9 @@ namespace HackerRank
     {
         static void Main(String[] args)
         {
-            CountingInversions.Run();
 
-            Console.Read();
+
+            Cards.Run();
 
         }
     }

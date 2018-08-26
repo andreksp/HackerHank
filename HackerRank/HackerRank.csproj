@@ -42,12 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Codility\Cards.cs" />
     <Compile Include="CrackingCodeInterview\ArrayLeftRotation.cs" />
     <Compile Include="CrackingCodeInterview\BalancedBrakets.cs" />
+    <Compile Include="CrackingCodeInterview\BFSShortestReachGraph.cs" />
     <Compile Include="CrackingCodeInterview\BubbleSort.cs" />
     <Compile Include="CrackingCodeInterview\CoinChange.cs" />
     <Compile Include="CrackingCodeInterview\CountingInversions.cs" />
     <Compile Include="CrackingCodeInterview\DetectCycle.cs" />
+    <Compile Include="CrackingCodeInterview\DFSConnectedCellInAGrid.cs" />
     <Compile Include="CrackingCodeInterview\Fibonacci.cs" />
     <Compile Include="CrackingCodeInterview\IceCreamParlor.cs" />
     <Compile Include="CrackingCodeInterview\IsBinarySearchTree.cs" />
@@ -91,6 +94,9 @@
     <Content Include="CrackingCodeInterview\RunningMedian.txt" />
     <Content Include="CrackingCodeInterview\tries.txt" />
     <Content Include="Strings\Iinput.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
