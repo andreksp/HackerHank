@@ -73,6 +73,9 @@
     <Compile Include="Implementation\DivisibleSumPairs.cs" />
     <Compile Include="Implementation\Kangoroo.cs" />
     <Compile Include="Implementation\MigratoryBirds.cs" />
+    <Compile Include="InterviewPreparationKit\WarmUp Challenges\JumpingOnClouds.cs" />
+    <Compile Include="InterviewPreparationKit\WarmUp Challenges\RepeatedString.cs" />
+    <Compile Include="InterviewPreparationKit\WarmUp Challenges\SockMerchant.cs" />
     <Compile Include="Strings\GamesThrones.cs" />
     <Compile Include="Strings\HackerRankString.cs" />
     <Compile Include="Strings\PalindromeIndex.cs" />
@@ -95,8 +98,6 @@
     <Content Include="CrackingCodeInterview\tries.txt" />
     <Content Include="Strings\Iinput.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NewFolder1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -2,6 +2,7 @@
 using HackerRank.CrackingCodeInterview;
 using HackerRank.Data_Structures.Arrays;
 using HackerRank.Implementation;
+using HackerRank.InterviewPreparationKit.WarmUp_Challenges;
 using HackerRank.Strings;
 using System;
 using System.Collections;
@@ -19,7 +20,7 @@ namespace HackerRank
         {
 
 
-            Cards.Run();
+            RepeatedString.ProcessMain();
 
         }
     }
